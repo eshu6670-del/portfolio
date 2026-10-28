@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eshal Imran - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="logo">Eshal.dev</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#video">Intro Video</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Profile Picture -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3>Hello, I'm</h3>
+                <h1>Eshal Imran</h1>
+                <p>Computer Science Student & Software Developer</p>
+                <a href="#projects" class="btn">Explore My Work</a>
+            </div>
+            <div class="hero-img">
+                <!-- Yahan apni picture ka naam profile.jpg rakhein -->
+                <img src="profile.jpg" alt="Eshal Imran Profile Picture" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400'">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am a passionate developer skilled in building mobile and desktop applications, web development, and exploring modern software solutions with a strong academic background in Computer Science.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Professional Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">C# / .NET & WinForms</div>
+            <div class="skill-card">Flutter & Dart Mobile Apps</div>
+            <div class="skill-card">HTML / CSS / JavaScript</div>
+            <div class="skill-card">Firebase & SQL Databases</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Coffee Shop App</h3>
+                <p>Flutter application featuring authentication and Cloud Firestore integration.</p>
+            </div>
+            <div class="project-card">
+                <h3>Shop Management System</h3>
+                <p>C# WinForms desktop application with SQL Server database connectivity.</p>
+            </div>
+            <div class="project-card">
+                <h3>Travel App</h3>
+                <p>Mobile application built for browsing and booking travel destinations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Introduction Section -->
+    <section id="video" class="section">
+        <h2>Introduction Video</h2>
+        <p>Watch a brief overview of my development projects and work style.</p>
+        <div class="video-container">
+            <!-- Yahan aap apni YouTube video ka embed link laga sakte hain -->
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Introduction Video" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Get In Touch</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Eshal Imran. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
